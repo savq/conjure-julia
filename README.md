@@ -1,6 +1,20 @@
-# Conjure-Julia
+**NOTICE:**
 
-🚧 work in progress 🚧
+I've been busy with my coursework and other projects. It'll take a while before
+I can resume development here.
+
+If you're interested in using this project… You're here too soon!
+In the mean time, [nvim-treesitter-text-objects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects),
+with some REPL plugin (there's plenty of them), will get you half-way
+there.
+
+If you're interested in continuing this project, consider opening an issue.
+Note that the tree-sitter draft here has already been integrated to Conjure,
+and will most likely continue to improve there. This repo should probably just
+implement a client similar to those that [already exist](https://github.com/Olical/conjure/tree/master/fnl/conjure/client)
+
+
+🚧 **WORK IN PROGRESS** (sort of) 🚧
 
 1. Use [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) to parse Julia code.
 
@@ -31,18 +45,9 @@ Julia is also a great language to experiment with tree-sitter, since it's an
 expression-based-language (like Lisp), pretty much all syntactic constructions
 will yield a meaningful result in the REPL.
 
-Using the REPL within the editor is a lot more flexible than the other way around
-(e.g. using `edit` and `include`). It makes context switching a lot easier.
-
 
 ### Utopia
 
-This plug-in should cover all of the Conjure API, and it should extend it
+This plug-in should cover the Conjure API, and it should extend it
 where appropriate to handle a non-lisp better.
 This should follow the principle of: "do what I want, not what I say."
-
-Neovim should be a first-class development environment for Julia.
-This means all of the power of the REPL should be available within Neovim.
-_All of it._ Including docs and [plots](https://github.com/Evizero/UnicodePlots.jl).
-(LaTeX-to-Unicode completion is already provided by [julia-vim](https://github.com/JuliaEditorSupport/julia-vim))
-
