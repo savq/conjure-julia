@@ -4,14 +4,14 @@ I've been busy with my coursework and other projects. It'll take a while before
 I can resume development here.
 
 If you're interested in using this project… You're here too soon!
-In the mean time, [nvim-treesitter-text-objects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects),
-with some REPL plugin (there's plenty of them), will get you half-way
+In the mean time, [nvim-treesitter-text-objects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
+with some REPL plugin (there's plenty of them) will get you half-way
 there.
 
 If you're interested in continuing this project, consider opening an issue.
 Note that the tree-sitter draft here has already been integrated to Conjure,
 and will most likely continue to improve there. This repo should probably just
-implement a client similar to those that [already exist](https://github.com/Olical/conjure/tree/master/fnl/conjure/client)
+implement a client similar to those that [already exist](https://github.com/Olical/conjure/tree/master/fnl/conjure/client).
 
 
 🚧 **WORK IN PROGRESS** (sort of) 🚧
